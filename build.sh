@@ -1,17 +1,19 @@
 #!/bin/bash
 
+rm -Rf ./bin ./target
+mkdir ./bin
+
 mvn -DskipTests package assembly:single
 
-rm -Rf ./bin
-mkdir ./bin
 cp -f ./target/satellite_coverage*-jar-with-dependencies.jar ./bin/
 
-JAR_NAME=`ls -1 ./bin/satellite_coverage-*-jar-with-dependencies.jar`
+JAR_NAME=`ls -1 ./bin/satellite_coverage-*-jar-with-dependencies.jar | xargs -n 1 basename`
 
-cat <<EOF > ./bin/satellite_coverage
+cat << EOF > ./bin/satellite_coverage
 #!/bin/bash
 
-java -jar ${JAR_NAME}
+DIRNAME=\`dirname \${BASH_SOURCE[0]}\`
+java -jar \${DIRNAME}/${JAR_NAME}
 
 EOF
 

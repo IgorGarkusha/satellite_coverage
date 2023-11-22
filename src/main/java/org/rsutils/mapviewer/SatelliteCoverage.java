@@ -93,7 +93,7 @@ import java.io.PrintStream;
 public class SatelliteCoverage extends Thread
 {
 	public static final String PROG_VERSION = "2";
-	public static final String DATE_VERSION = "18.11.2023";
+	public static final String DATE_VERSION = "22.11.2023";
 	public String ProgramTitle = "Coverage Scheme of Satellites. Version " + PROG_VERSION +"."+DATE_VERSION;
 	
 	public static void main(String[] args)
