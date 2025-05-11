@@ -3,7 +3,7 @@
  * Author:  Igor Garkusha <rsutils.gis@gmail.com>
  *          Ukraine, Dnipro
  * 
- * Copyright (C) 2016, 2023, Igor Garkusha <rsutils.gis@gmail.com>
+ * Copyright (C) 2016, 2023, 2024, 2025 Igor Garkusha <rsutils.gis@gmail.com>
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -42,7 +42,7 @@ public class AboutDialog extends JDialog
 		Box hbox1 = Box.createHorizontalBox();
 		hbox1.add(jLabelName);
 				
-		JLabel jLabelCopyright = new JLabel("Copyright (C) 2016, 2023, Igor Garkusha");
+		JLabel jLabelCopyright = new JLabel("Copyright (C) 2016, 2023, 2024, 2025 Igor Garkusha");
 		jLabelCopyright.setFont(new Font("Dialog", Font.BOLD, 12));
 		Box hbox2 = Box.createHorizontalBox();
 		hbox2.add(jLabelCopyright);
