@@ -1,6 +1,6 @@
 # satellite_coverage
 
-**Satellite Coverage. Version 2.22.11.2023**
+**Satellite Coverage. Version 2.11.05.2025**
 
 Satellite Coverage is free and open source (GPL) software.
 
