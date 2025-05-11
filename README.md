@@ -4,7 +4,7 @@
 
 Satellite Coverage is free and open source (GPL) software.
 
-Copyright (C) 2016, 2023, Igor Garkusha. Ukraine, Dnipro.
+Copyright (C) 2016, 2023, 2024, 2025 Igor Garkusha. Ukraine, Dnipro.
 
 <a href="https://github.com/IgorGarkusha/satellite_coverage/blob/main/LICENSE">License</a>
 
