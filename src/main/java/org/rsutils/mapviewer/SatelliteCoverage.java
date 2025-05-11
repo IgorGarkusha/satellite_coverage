@@ -3,7 +3,7 @@
  * Author:  Igor Garkusha <rsutils.gis@gmail.com>
  *          Ukraine, Dnipro
  * 
- * Copyright (C) 2016, 2023, Igor Garkusha <rsutils.gis@gmail.com>
+ * Copyright (C) 2016, 2023, 2024, 2025 Igor Garkusha <rsutils.gis@gmail.com>
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -93,7 +93,7 @@ import java.io.PrintStream;
 public class SatelliteCoverage extends Thread
 {
 	public static final String PROG_VERSION = "2";
-	public static final String DATE_VERSION = "22.11.2023";
+	public static final String DATE_VERSION = "11.05.2025";
 	public String ProgramTitle = "Coverage Scheme of Satellites. Version " + PROG_VERSION +"."+DATE_VERSION;
 	
 	public static void main(String[] args)
