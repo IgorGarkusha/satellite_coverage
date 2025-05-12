@@ -93,7 +93,7 @@ import java.io.PrintStream;
 public class SatelliteCoverage extends Thread
 {
 	public static final String PROG_VERSION = "2";
-	public static final String DATE_VERSION = "11.05.2025";
+	public static final String DATE_VERSION = "12.05.2025";
 	public String ProgramTitle = "Coverage Scheme of Satellites. Version " + PROG_VERSION +"."+DATE_VERSION;
 	
 	public static void main(String[] args)
@@ -126,7 +126,7 @@ public class SatelliteCoverage extends Thread
 		cbSatellite = new JComboBox<String>(new String[]{
 						"The scheme is not defined",
 						"WRS-2 Path/Row boundaries (Landsat-7/8/9)",
-						"MGRS UTM/WGS-84 Tile Grid (Sentinel-2A/B)",
+						"MGRS UTM/WGS-84 Tile Grid (Sentinel-2A/B/C)",
 						"Sinusoidal Tile Grid (Terra, Suomi NPP)"});
 	}
 	
